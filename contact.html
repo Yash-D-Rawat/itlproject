@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-div">
+            <a href="yash.html" class="logo-div">
+                <img src="logo.png" alt="Yash Rawat" id="logo">
+                <span id="logoname">StudySync</span>
+            </a>
+        </div>
+
+        <div class="navigation-div">
+            <a href="index.html" class="nav-div">Udemy</a>
+            <a href="#skills" class="nav-div">Skills</a>
+            <a href="" class="nav-div">Pricing</a>
+            <a href="#projects" class="nav-div">Projects</a>
+            
+        </div>
+
+        <div class="contact">
+            <i class="fa-solid fa-bars" id="icon"></i>
+            <a href="contact.html" id="contactme">Contact Me</a>
+        </div>
+    </header>
+
+    <div class="outer">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <button type="submit" class="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        let contact = document.querySelector(".submit");
+        contact.addEventListener("click", () => {
+            alert("Thank you for reaching to us.");
+        })
+    </script>
+</body>
+
+</html>

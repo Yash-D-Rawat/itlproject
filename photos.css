@@ -1,0 +1,64 @@
+
+#photo1{
+    height: 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-image: url("web.png");
+}
+
+#photo2{
+    height: 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-image: url("dsa.png");
+}
+
+#photo3{
+    height: 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-image: url("ruby.png");
+}
+
+#photo4{
+    height: 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-image: url("react.png");
+}
+
+#photo5{
+    height: 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-image: url("deep.png");
+}
+
+#teacher1{
+    height: 50%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#teacher2{
+    height: 50%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#teacher3{
+    height: 50%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
